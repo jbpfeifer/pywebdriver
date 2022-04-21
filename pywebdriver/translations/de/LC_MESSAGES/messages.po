@@ -132,7 +132,7 @@ msgstr "Index"
 
 #: templates/index.html:25
 msgid "Welcome on the PyWebDriver"
-msgstr "Welcome on the PyWebDriver"
+msgstr "Willkommen beim PyWebDriver"
 
 #: templates/layout.html:25
 msgid "PyWebDriver Software"
@@ -144,7 +144,7 @@ msgstr "Home"
 
 #: templates/layout.html:49 templates/status.html:23
 msgid "Status"
-msgstr "Statut"
+msgstr "Status"
 
 #: templates/layout.html:51
 msgid "USB Devices"
