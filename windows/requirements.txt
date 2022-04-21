@@ -3,6 +3,7 @@ simplejson
 Flask
 Flask-Babel
 Flask-cors
+jinja2==3.0.3
 #pyusb # Only useful to make escpos work via usb (easier via win32raw)
 pyserial
 pif
