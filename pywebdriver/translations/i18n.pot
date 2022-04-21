@@ -1,0 +1,238 @@
+# Translations template for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-04-21 16:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: views.py:85
+msgid "CORS allowed origins"
+msgstr ""
+
+#: views.py:90
+msgid "OS - System"
+msgstr ""
+
+#: views.py:91
+msgid "OS - Release"
+msgstr ""
+
+#: views.py:92
+msgid "OS - Version"
+msgstr ""
+
+#: views.py:93
+msgid "Machine"
+msgstr ""
+
+#: views.py:95
+msgid "Python Version"
+msgstr ""
+
+#: plugins/escpos_driver.py:310
+msgid ""
+"ERROR: Could not connect to LAN<br/><br/>Please check that your system is"
+" correc-<br/>tly connected with a network cable,<br/> that the LAN is "
+"setup with DHCP, and<br/>that network addresses are available"
+msgstr ""
+
+#: plugins/escpos_driver.py:331
+#, python-format
+msgid ""
+"\n"
+"                       <div align=\"center\">\n"
+"                            <h4>PyWebDriver Software Status</h4>\n"
+"                            <br/><br/>\n"
+"                            <h5>IP Addresses:</h5>\n"
+"                            %s<br/>\n"
+"                            %s<br/>\n"
+"                            Port: %i\n"
+"                       </div>\n"
+"                "
+msgstr ""
+
+#: plugins/escpos_driver.py:343
+msgid "Public"
+msgstr ""
+
+#: plugins/escpos_driver.py:425
+msgid "Tel: "
+msgstr ""
+
+#: plugins/escpos_driver.py:427
+msgid "VAT: "
+msgstr ""
+
+#: plugins/escpos_driver.py:436
+msgid "Served by "
+msgstr ""
+
+#: plugins/escpos_driver.py:458
+msgid "Discount: "
+msgstr ""
+
+#: plugins/escpos_driver.py:494
+msgid "Subtotal"
+msgstr ""
+
+#: plugins/escpos_driver.py:500 plugins/escpos_driver.py:549
+msgid "Taxes"
+msgstr ""
+
+#: plugins/escpos_driver.py:510
+msgid "         TOTAL"
+msgstr ""
+
+#: plugins/escpos_driver.py:529
+msgid "        CHANGE"
+msgstr ""
+
+#: plugins/escpos_driver.py:539
+msgid "Discounts"
+msgstr ""
+
+#: templates/display_status.html:21 templates/status.html:84
+msgid "Display Status"
+msgstr ""
+
+#: templates/display_status.html:22 templates/print_status.html:22
+#: templates/telium_status.html:22
+msgid "Please close this page"
+msgstr ""
+
+#: templates/index.html:21
+msgid "Index"
+msgstr ""
+
+#: templates/index.html:22
+msgid "Welcome on the PyWebDriver"
+msgstr ""
+
+#: templates/layout.html:25
+msgid "PyWebDriver Software"
+msgstr ""
+
+#: templates/layout.html:47
+msgid "Home"
+msgstr ""
+
+#: templates/layout.html:50 templates/status.html:21
+msgid "Status"
+msgstr ""
+
+#: templates/layout.html:53
+msgid "USB Devices"
+msgstr ""
+
+#: templates/layout.html:56 templates/system.html:44
+msgid "System"
+msgstr ""
+
+#: templates/print_status.html:21 templates/telium_status.html:21
+msgid "Print Status"
+msgstr ""
+
+#: templates/status.html:22
+msgid "Hardware Status"
+msgstr ""
+
+#: templates/status.html:23
+msgid "The list of enabled drivers and their status"
+msgstr ""
+
+#: templates/status.html:28
+msgid "status: "
+msgstr ""
+
+#: templates/status.html:29
+msgid "Connected"
+msgstr ""
+
+#: templates/status.html:31
+msgid "Connecting"
+msgstr ""
+
+#: templates/status.html:33
+msgid "Disconnected"
+msgstr ""
+
+#: templates/status.html:35
+msgid "Error"
+msgstr ""
+
+#: templates/status.html:70
+msgid "Test Communication"
+msgstr ""
+
+#: templates/status.html:77
+msgid "Print Status Receipt"
+msgstr ""
+
+#: templates/system.html:21
+msgid "System Information"
+msgstr ""
+
+#: templates/system.html:22
+msgid "Technical Information about the system"
+msgstr ""
+
+#: templates/system.html:24
+msgid "Pywebdriver"
+msgstr ""
+
+#: templates/system.html:28 templates/system.html:48 templates/system.html:69
+msgid "Name"
+msgstr ""
+
+#: templates/system.html:29 templates/system.html:49
+msgid "Value"
+msgstr ""
+
+#: templates/system.html:65
+msgid "Python Packages"
+msgstr ""
+
+#: templates/system.html:70
+msgid "Version"
+msgstr ""
+
+#: templates/system.html:71
+msgid "Summary"
+msgstr ""
+
+#: templates/system.html:72
+msgid "Home Page"
+msgstr ""
+
+#: templates/usb_devices.html:21 templates/usb_devices.html:22
+msgid "Connected Devices (USB)"
+msgstr ""
+
+#: templates/usb_devices.html:27
+msgid "Bus"
+msgstr ""
+
+#: templates/usb_devices.html:28
+msgid "Device"
+msgstr ""
+
+#: templates/usb_devices.html:29
+msgid "ID"
+msgstr ""
+
+#: templates/usb_devices.html:30
+msgid "Description"
+msgstr ""
+

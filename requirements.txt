@@ -1,4 +1,5 @@
 setuptools>=34
+jinja2==3.0.3
 wheel
 #jcconv
 simplejson
