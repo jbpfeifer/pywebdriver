@@ -20,21 +20,25 @@
 ###############################################################################
 
 from flask import jsonify, make_response, request
+from ..helper.custom_cors import handle_cors
 
 from pywebdriver import app, drivers
 
 
 @app.route("/hw_proxy/hello", methods=["GET"])
+@handle_cors
 def hello_http():
     return make_response("ping")
 
 
 @app.route("/hw_proxy/handshake", methods=["POST", "GET", "PUT"])
+@handle_cors
 def handshake_json():
     return jsonify(jsonrpc="2.0", result=True)
 
 
 @app.route("/hw_proxy/status_json", methods=["POST", "GET", "PUT"])
+@handle_cors
 def status_json():
     statuses = {}
     params = request.json["params"]
@@ -43,7 +47,10 @@ def status_json():
     return jsonify(jsonrpc="2.0", result=statuses)
 
 
+
+
 @app.route("/hw_proxy/log", methods=["POST", "GET", "PUT"])
+@handle_cors
 def log_json():
     arguments = request.json["params"]["arguments"]
     print(" ".join(str(v) for v in arguments))

@@ -31,17 +31,18 @@ else:  # Python < 3.8
 
 from flask import render_template
 from flask_babel import gettext as _
-
+from .helper.custom_cors import handle_cors
 from pywebdriver import app, config, drivers
-
 
 @app.route("/", methods=["GET"])
 @app.route("/index.html", methods=["GET"])
+@handle_cors
 def index():
     return render_template("index.html")
 
 
 @app.route("/status.html", methods=["GET"])
+@handle_cors
 def status():
     drivers_info = {}
 
@@ -59,6 +60,7 @@ def status():
 
 
 @app.route("/usb_devices.html", methods=["GET"])
+@handle_cors
 def usb_devices():
     str_devices = subprocess.getoutput("lsusb").split("\n")
     devices = []
@@ -75,6 +77,7 @@ def usb_devices():
 
 
 @app.route("/system.html", methods=["GET"])
+@handle_cors
 def system():
     pywebdriver_info = []
     pywebdriver_info.append(
@@ -107,5 +110,6 @@ def system():
 
 
 @app.route("/static/images/<path:path>", methods=["POST", "GET", "PUT", "OPTIONS"])
+@handle_cors
 def image_html(path=None):
     return app.send_static_file(os.path.join("images/", path))
